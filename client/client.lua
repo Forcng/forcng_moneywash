@@ -23,7 +23,7 @@ CreateThread(function()
 end)
 
 
-function OPEN_WASH()
+local function OPEN_WASH()
     lib.registerContext({
         id = 'wash',
         title = 'Dirty Money Wash',
